@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="card">
+
+    <h2>Sign Up</h2>
+
+    <div class="field">
+      <label>Name</label>
+      <input type="text" placeholder="Enter name" required>
+    </div>
+
+    <div class="field">
+      <label>Phone</label>
+      <input type="tel" placeholder="Enter phone number" required>
+    </div>
+
+    <div class="field">
+      <label>Email</label>
+      <input type="email" placeholder="Enter email" required>
+    </div>
+
+    <div class="field password-box">
+      <label>Password</label>
+
+      <!-- Checkbox MUST come first -->
+      <input type="checkbox" id="signupToggle">
+      <label for="signupToggle" class="toggle-text">Show Password</label>
+
+      <!-- Password fields -->
+      <input type="password" class="pwd-hide" placeholder="Create password">
+      <input type="text" class="pwd-show" placeholder="Create password">
+    </div>
+
+    <button>Create Account</button>
+
+    <p class="link">
+      Already have an account?
+      <a href="login.html">Login</a>
+    </p>
+
+  </div>
+</div>
+
+</body>
+</html>

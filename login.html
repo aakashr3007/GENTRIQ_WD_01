@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="card">
+
+    <h2>Login</h2>
+
+    <div class="field">
+      <label>Email</label>
+      <input type="email" placeholder="Enter email" required>
+    </div>
+
+    <div class="field password-box">
+      <label>Password</label>
+
+      <!-- Checkbox MUST come first -->
+      <input type="checkbox" id="loginToggle">
+      <label for="loginToggle" class="toggle-text">Show Password</label>
+
+      <!-- Password fields -->
+      <input type="password" class="pwd-hide" placeholder="Enter password">
+      <input type="text" class="pwd-show" placeholder="Enter password">
+    </div>
+
+    <button>Login</button>
+
+    <p class="link">
+      Don’t have an account?
+      <a href="signup.html">Sign Up</a>
+    </p>
+
+  </div>
+</div>
+
+</body>
+</html>
